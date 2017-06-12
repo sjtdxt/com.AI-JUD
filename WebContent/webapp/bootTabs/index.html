@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>Tabbed Content using Bootstrap</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://www.templatemonster.com/favicon.ico">
+  <link rel="icon" href="http://www.templatemonster.com/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" charset="utf-8" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/customtabs.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <h1>Simple Bootstrap Tabs</h1>
+        <p>You can easily create tabbed widgets using Bootstrap. Page content is hard-coded into the static HTML.</p>
+        
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#hello" data-toggle="tab">Hello</a></li>
+          <li><a href="#empty" data-toggle="tab">Empty</a></li>
+          <li><a href="#templates" data-toggle="tab">Templates</a></li>
+         <li><a href="#bluths" data-toggle="tab">Bluths</a></li>
+        </ul>
+            
+        <div class="tab-content">
+          <div class="tab-pane active" id="hello">
+            <h3>Hello my Friend!</h3>
+            <p>This is what a basic Bootstrap interface can look like. We have setup all the custom HTML based on <a href="http://twitter.github.io/bootstrap/javascript.html#tabs">the JS documentation</a>. Skim the content and you can surely pick up your own methods.</p>
+            
+            <p class="text-center"><a href="http://twitter.github.io/bootstrap/"><img src="images/bootstrap-homepage.jpg" alt="bootstrap website layout interface"></a></p>
+          </div><!-- @end #hello -->
+          
+          <div class="tab-pane" id="empty">
+            <h3>Just gonna be empty...</h3>
+            
+            <p>Yup. Nothin' here.</p>
+          </div><!-- @end #empty -->
+          
+          <div class="tab-pane" id="templates">
+            <h3>Some Cool Templates</h3>
+            <div class="row">
+              <div class="span6"><h4><a href="http://www.templatemonster.com/website-templates/43793.html">Responsive Website Template #43793</a></h4>
+            <p><a href="http://www.templatemonster.com/website-templates/43793.html"><img src="images/01-template-monster.jpg"></a></p></div>
+              <div class="span6"><h4><a href="http://www.templatemonster.com/website-templates/44401.html">Responsive Website Template #44401</a></h4>
+            <p><a href="http://www.templatemonster.com/website-templates/44401.html"><img src="images/02-template-monster.jpg"></a></p></div>
+            </div>
+                        
+            <hr>
+            <div class="row">
+              <div class="span6"><h4><a href="http://www.templatemonster.com/website-templates/44399.html">Responsive Website Template #44399</a></h4>
+            <p><a href="http://www.templatemonster.com/website-templates/44399.html"><img src="images/03-template-monster.jpg"></a></p></div>
+              <div class="span6"><h4><a href="http://www.templatemonster.com/website-templates/44425.html">Responsive Website Template #44425</a></h4>
+              <p><a href="http://www.templatemonster.com/website-templates/44425.html"><img src="images/04-template-monster.jpg"></a></p></div>
+            </div>
+
+          </div><!-- @end #templates -->
+          
+          <div class="tab-pane" id="bluths">
+            <h3>It's <a href="http://bluthipsum.com/">Bluth Ipsum</a>.</h3>
+            
+            <p>She keeps saying that God is going to show me a sign. The… something of my ways. Wisdom? It's probably wisdom.</p>
+            
+            <p>Annhog's coming? I'd go to Craft Service, get some raw veggies, bacon, Cup-A-Soup... baby, I got a stew goin'. Did you enjoy your lunch, mom? You drank it fast enough.</p>
+            
+            <p>No, I was ashamed to be SEEN with you. I like being WITH you. I've used one adjective to describe myself. What is it? Professional.</p>
+            
+            <hr>
+            
+            <p>Can't a guy call his mother pretty without it seeming strange? Amen. And how about that little piece of tail on her? Cute! I've been in the film business for a while but I just cant seem to get one in the can.</p>
+            
+            <p>Aren't you the sweetest thing, spending time with what's left of your uncle. A group of British builders operating outside the O.C. contacted me for a partnership to build homes overseas. I did not know they meant Iraq.</p>
+            
+            <p>Steve Holt? The moron jock? We need a name. Maybe 'Operation Hot Mother'.</p>
+          </div><!-- @end #bluths -->
+        </div><!-- @end .tab-content -->
+        
+      </div><!-- @end .span12 -->
+    </div><!-- @end .row -->
+  </div><!-- @end .container -->
+</body>
+</html>
